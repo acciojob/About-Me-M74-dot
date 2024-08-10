@@ -1,1 +1,38 @@
-
+.container{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.left{
+	display:flex;
+	flex-direction:column;
+}
+.right{
+	width:40%;
+}
+.upper-part{
+	display:flex;
+	justify-content: space-around;
+	gap:20px;
+	flex-wrap:wrap;
+}
+#name, #email, #profile{
+	display:flex;
+}
+#name p, #profile p, #email p{
+	padding-top:5px;
+}
+.skills div{
+	display:flex;
+	flex-direction:column;
+}
+#cpp{
+	max-width: 50px
+}
+#mern{
+	max-width: 100px
+}
+.percentage{
+	max-width:200px;
+}
